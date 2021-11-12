@@ -9,13 +9,13 @@
     "@rollup/plugin-typescript": "^8.3.0",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.3.11",
-    "qni": "^0.0.90",
+    "qni": "^0.0.93",
     "rollup": "^2.59.0",
-    "tailwindcss": "^2.2.19",
     "tslib": "^2.3.1"
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
     "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css"
-  }
+  },
+  "devDependencies": {}
 }

@@ -1864,10 +1864,10 @@ purgecss@^4.0.3:
     postcss "^8.2.1"
     postcss-selector-parser "^6.0.2"
 
-qni@^0.0.90:
-  version "0.0.90"
-  resolved "https://registry.yarnpkg.com/qni/-/qni-0.0.90.tgz#141c4f871816cf2e8ad63a429e80b8e1bca4696e"
-  integrity sha512-JkObeSegEXVO04y1N5y0zRVQbMu9SuXpZxY8QWscDbmdm8Bhfczoe2nPMUT0oyXfHzlIymjeVbrTsl/DtA6inw==
+qni@^0.0.93:
+  version "0.0.93"
+  resolved "https://registry.yarnpkg.com/qni/-/qni-0.0.93.tgz#a4e97cba6bda994506c07b2e314f4f1a6a2a458d"
+  integrity sha512-BgVC8aJpEfmFcbuF+U6/2TegBbWwSTN1zz/Os1jbu71fItyFIWgmyyP4qss49NGe82DBGXkFhzKhazloPra2nA==
   dependencies:
     "@babel/plugin-proposal-decorators" "~7.16"
     "@babel/plugin-proposal-throw-expressions" "~7.16"

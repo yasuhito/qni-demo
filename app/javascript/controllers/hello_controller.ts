@@ -1,18 +1,10 @@
-import { CircuitStepElement, QuantumCircuitElement } from "qni"
+import { CircuitStepElement } from "qni"
 import { Controller } from "@hotwired/stimulus"
 
 export default class extends Controller {
-  static targets = ["circuit", "log"]
+  static targets = ["log"]
 
-  declare circuitTarget: QuantumCircuitElement
   declare logTarget: HTMLTextAreaElement
-
-  connect() {
-    this.circuitTarget
-        .write("0", 0, 1)
-        .h(0)
-        .cnot(0, 1)
-  }
 
   printEvent(event: Event): void {
     const customEvent = event as CustomEvent
